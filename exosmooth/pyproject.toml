@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "exosmooth"
+version = "0.1.0"
+description = ""
+authors = ["GBMitev <georgibogdanovmitev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.1"
+numpy = "^1.22.4"
+sklearn = "^0.0.post5"
+tqdm = "^4.66.1"
+multiprocessing = "^2.6.2.1"
+scipy = "^1.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
